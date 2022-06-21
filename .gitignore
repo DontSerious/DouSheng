@@ -13,4 +13,12 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
-*output/
+# Go workspace file
+go.work
+
+.idea
+
+*output
+*_test.go
+
+.vscode
